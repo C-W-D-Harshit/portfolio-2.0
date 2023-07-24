@@ -27,7 +27,7 @@ const page = () => {
       <div className="holder">
         {projects?.map((project, i) => (
           <div className="project" key={i}>
-            <div className="img">
+            <div className="image">
               <Image
                 src={project.image}
                 width={800}

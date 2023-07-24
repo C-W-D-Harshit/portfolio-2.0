@@ -4,9 +4,6 @@
   justify-content: space-between;
   align-items: center;
   height: 9rem;
-}
-
-.header {
   .tag {
     width: fit-content;
     max-width: max-content;
@@ -77,13 +74,14 @@
 
 @media (max-width: 990px) {
   .header {
-    .menu,
-    .socials {
-      display: none;
-    }
-    .mob {
-      display: flex;
-    }
     border-bottom: 2px solid var(--secondary);
+  }
+
+  .menu,
+  .socials {
+    display: none;
+  }
+  .mob {
+    display: flex;
   }
 }

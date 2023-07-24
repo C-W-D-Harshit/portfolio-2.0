@@ -76,14 +76,6 @@ export default function Home() {
     },
   ];
 
-  interface Proj {
-    name: string;
-    image: string;
-    link: string;
-    source: string;
-    stack: string;
-  }
-
   const projects: Proj[] = [
     {
       name: "Urbanbliss",
@@ -102,7 +94,7 @@ export default function Home() {
   ];
   let nh = 14;
   return (
-    <main>
+    <main className="main">
       <ScrollTop />
       <section className="home">
         <div>
@@ -110,16 +102,9 @@ export default function Home() {
           <h1 className="tit" style={{ color: "var(--secondary)" }}>
             Fullstack Devloper
           </h1>
-          <div className="img" style={{ margin: "2rem 0" }}>
+          <div className="imge" style={{ margin: "2rem 0" }}>
             <div>
-              <Image
-                alt="img"
-                src="/pop.jpg"
-                width={900}
-                height={900}
-                quality={100}
-                priority
-              />
+              <Image alt="img" src="/pop.jpg" width={700} height={700} />
             </div>
           </div>
           <h3 className="tag" style={{ margin: "1rem 0" }}>
@@ -179,7 +164,7 @@ export default function Home() {
                 key={i}
                 style={{ animationDelay: `${nh}s` }}
               >
-                <div className="img">
+                <div className="image">
                   <Image
                     src={project.image}
                     width={800}
