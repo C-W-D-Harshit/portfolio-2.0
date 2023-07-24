@@ -42,16 +42,16 @@ const Header = () => {
         </div>
       </div>
       <div className="socials">
-        <Link href="/">
+        <Link href="https://github.com/C-W-D-Harshit" target="_black">
           <AiFillGithub />
         </Link>
-        <Link href="/">
+        <Link href="https://www.instagram.com/cwd.harshit" target="_black">
           <AiFillInstagram />
         </Link>
-        <Link href="/">
+        <Link href="https://twitter.com/cwd_harshit" target="_black">
           <AiFillTwitterCircle />
         </Link>
-        <Link href="/">
+        <Link href="https://www.linkedin.com/in/cwd-harshit/" target="_black">
           <AiFillLinkedin />
         </Link>
       </div>
