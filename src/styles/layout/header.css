@@ -77,11 +77,11 @@
     border-bottom: 2px solid var(--secondary);
   }
 
-  .menu,
-  .socials {
+  .header > .menu,
+  .header > .socials {
     display: none;
   }
-  .mob {
+  .header > .mob {
     display: flex;
   }
 }
