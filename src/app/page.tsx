@@ -91,6 +91,13 @@ export default function Home() {
       source: "https://github.com/C-W-D-Harshit/munch-express",
       stack: "NEXTjs Custom Server, MongoDB, Redux, Websockets",
     },
+    {
+      name: "Moviehub",
+      image: "/moviehub.png",
+      link: "https://moviehub.cleverdevloper.in/",
+      source: "https://github.com/C-W-D-Harshit/moviehub",
+      stack: "NEXTjs, Movie DB Api's",
+    },
   ];
   let nh = 14;
   return (
@@ -157,7 +164,6 @@ export default function Home() {
         <div className="holder">
           {projects?.map((project, i) => {
             nh -= 1;
-            console.log(nh);
             return (
               <div
                 className="project"

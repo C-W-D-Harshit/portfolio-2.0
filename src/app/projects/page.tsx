@@ -20,6 +20,13 @@ const page = () => {
       source: "https://github.com/C-W-D-Harshit/munch-express",
       stack: "NEXTjs Custom Server, MongoDB, Redux, Websockets",
     },
+    {
+      name: "Moviehub",
+      image: "/moviehub.png",
+      link: "https://moviehub.cleverdevloper.in/",
+      source: "https://github.com/C-W-D-Harshit/moviehub",
+      stack: "NEXTjs, Movie DB Api's",
+    },
   ];
   return (
     <div className="margin projects">
