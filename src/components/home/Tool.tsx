@@ -10,7 +10,7 @@ let z = 20;
 const Tool = ({ name, path }: tooltip) => {
   name = name.charAt(0).toUpperCase() + name.slice(1);
   const randomNumber: number = Math.floor(Math.random() * 6) + 15;
-  console.log(randomNumber);
+  // console.log(randomNumber);
 
   z -= 1;
 

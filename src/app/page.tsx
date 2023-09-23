@@ -98,6 +98,13 @@ export default function Home() {
       source: "https://github.com/C-W-D-Harshit/moviehub",
       stack: "NEXTjs, Movie DB Api's",
     },
+    {
+      name: "Vista Cart",
+      image: "/vista.png",
+      link: "https://vista-cart.cleverdevloper.in/",
+      source: "https://github.com/C-W-D-Harshit/vista-cart-v2",
+      stack: "NEXTjs",
+    },
   ];
   let nh = 14;
   return (
@@ -111,7 +118,7 @@ export default function Home() {
           </h1>
           <div className="imge" style={{ margin: "2rem 0" }}>
             <div>
-              <Image alt="img" src="/pop.jpg" width={700} height={700} />
+              <Image alt="img" src="/profile2.jpg" width={700} height={700} />
             </div>
           </div>
           <h3 className="tag" style={{ margin: "1rem 0" }}>

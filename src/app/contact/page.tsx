@@ -1,11 +1,20 @@
 import React from "react";
 
-const page = () => {
+const Page = () => {
+  async function sendEmail(formData: FormData) {
+    "use server";
+
+    // mutate data
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const password = formData.get("password");
+    // revalidate cache
+  }
   return (
     <div className="margin projects">
       <p className="tit">Contact</p>
       <div className="form">
-        <form action="" className="form_">
+        <form action={sendEmail} className="form_">
           <input type="text" name="name" placeholder="Name" />
           <input type="email" name="email" placeholder="Email" />
           <textarea
@@ -21,4 +30,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

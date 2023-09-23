@@ -27,6 +27,13 @@ const page = () => {
       source: "https://github.com/C-W-D-Harshit/moviehub",
       stack: "NEXTjs, Movie DB Api's",
     },
+    {
+      name: "Vista Cart",
+      image: "/vista.png",
+      link: "https://vista-cart.cleverdevloper.in/",
+      source: "https://github.com/C-W-D-Harshit/vista-cart-v2",
+      stack: "NEXTjs",
+    },
   ];
   return (
     <div className="margin projects">
